@@ -1,0 +1,21 @@
+[package]
+name = "dbcraft-ui-egui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+description = "Thin egui shell for DBCraft"
+
+[lints]
+workspace = true
+
+[dependencies]
+dbcraft-core = { workspace = true }
+dbcraft-engine = { workspace = true }
+craft-ui = { workspace = true }
+egui = { workspace = true }
+eframe = { workspace = true }
+log = { workspace = true }
+uuid = { workspace = true }
+serde = { workspace = true }

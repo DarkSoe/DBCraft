@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Geometric placeholder. Canonical icon is the beaver engraving in
+       assets/app-icon/hicolor/*/apps/ai.storyteller.dbcraft.png (see README). -->
+  <defs>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="#1B6CA8"/>
+    <g transform="translate(0,-6)" stroke="#0b0b0c" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M126 318 H386 V388 A130 42 0 0 1 126 388 Z" fill="#efe9dc" stroke-width="14"/>
+      <ellipse cx="256" cy="318" rx="130" ry="42" fill="#efe9dc" stroke-width="14"/>
+      <path d="M126 228 H386 V298 A130 42 0 0 1 126 298 Z" fill="#efe9dc" stroke-width="14"/>
+      <ellipse cx="256" cy="228" rx="130" ry="42" fill="#efe9dc" stroke-width="14"/>
+      <path d="M126 138 H386 V208 A130 42 0 0 1 126 208 Z" fill="#efe9dc" stroke-width="14"/>
+      <ellipse cx="256" cy="138" rx="130" ry="42" fill="#efe9dc" stroke-width="14"/>
+      <ellipse cx="256" cy="138" rx="78" ry="24" fill="none" stroke-width="12"/>
+    </g>
+  </g>
+</svg>

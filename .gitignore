@@ -1,0 +1,16 @@
+/target/
+/target-*/
+**/*.rs.bk
+.DS_Store
+Thumbs.db
+*.pdb
+.idea/
+.vscode/
+*.swp
+plan/
+log/
+corpus/
+.env
+.env.*
+!*.env.example
+Cargo.lock.bak

@@ -1,0 +1,21 @@
+[package]
+name = "dbcraft-driver"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+description = "Database drivers for DBCraft (MySQL/MariaDB, SQLite, PostgreSQL via sqlx)"
+
+[lints]
+workspace = true
+
+[dependencies]
+dbcraft-core = { workspace = true }
+sqlx = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+chrono = { workspace = true, features = ["clock"] }
+log = { workspace = true }
+url = "2"
+percent-encoding = "2"
